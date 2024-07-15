@@ -74,7 +74,7 @@ export default function Skills() {
                 className='mb-6 mx-auto mt-10  '>
 
                 <Slider  {...settings}>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='1' className='flex   box justify-center relative items-center'>
                         <div className=' p-8 cursor-grab border-white  w-full text-white'>
                             <img src={html.src} className=' z-50 w-96' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -82,7 +82,7 @@ export default function Skills() {
                         </div>
                         <h3 className='text-3xl font-md text-center  text-white'>Html5</h3>
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='2' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={css.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -90,7 +90,7 @@ export default function Skills() {
                         </div>
                         <h3 className='text-3xl font-md text-center  text-white'>CSS</h3>
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='3' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={js.src} className=' z-50' width={400} alt="js" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -99,7 +99,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>JavaScript</h3>
 
                     </div>
-                    <div className='flex    box justify-center relative items-center'>
+                    <div key='4' className='flex    box justify-center relative items-center'>
                         <div className='   p-8 cursor-grab border-white  w-full text-white'>
                             <img src={framer.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -108,7 +108,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>FramerMotion</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='5' className='flex   box justify-center relative items-center'>
                         <div className='   p-8 cursor-grab border-white  w-full text-white'>
                             <img src={react.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -116,7 +116,7 @@ export default function Skills() {
                         </div>
                         <h3 className='text-3xl font-md text-center  text-white'>React.js</h3>
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='6' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={tailwind.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -125,7 +125,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>Tailwind</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='7' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={Next.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -134,7 +134,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>Next.js</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='8' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={redux.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -143,7 +143,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>Redux</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='9' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={router.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -153,7 +153,7 @@ export default function Skills() {
 
                     </div>
 
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='10' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={jquery.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -163,7 +163,7 @@ export default function Skills() {
 
                     </div>
 
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='11' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={bootstrap.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -172,7 +172,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>Bootstrap</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='12' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={git.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -181,7 +181,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>Git</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='13' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={github.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -190,7 +190,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>Github</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='14' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={sass.src} className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
@@ -199,7 +199,7 @@ export default function Skills() {
                         <h3 className='text-3xl font-md text-center  text-white'>Sass</h3>
 
                     </div>
-                    <div className='flex   box justify-center relative items-center'>
+                    <div key='15' className='flex   box justify-center relative items-center'>
                         <div className='  p-8 cursor-grab border-white  w-full text-white'>
                             <img src={vercel.src}className=' z-50' width={400} alt="" />
                             <p className='text-4xl   text-white font-bold overlay  bg-black absolute  transition-opacity delay-100 duration-400 ease-linear opacity-0 left-1 right-1 top-1 bottom-1 flex justify-center items-center h-full 
