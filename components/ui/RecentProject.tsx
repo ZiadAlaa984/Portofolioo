@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const RecentProjects = () => {
   return (
-    <div className=" p-5 md:py-10 lg:py-20" id="Projects">
+    <div className="py-40" id="Projects">
       <motion.h1
           whileInView={{
 

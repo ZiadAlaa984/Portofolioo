@@ -14,7 +14,7 @@ export default function About() {
   if (!isClient) return null;
 
   return (
-    <section id='About' className="mx-auto md:mt-0 max-w-screen-xl p-5 md:p-10 lg:py-28">
+    <section id='About' className="mx-auto  py-40 md:mt-0 max-w-screen-xl  ">
       <motion.h2
         whileInView={{
           opacity: 1,
@@ -27,7 +27,7 @@ export default function About() {
         <span className='text-purple'> About {" "}</span> Me
       </motion.h2>
 
-      <div className='mb-6 mx-auto mt-10'>
+      <div className='mb-6 mx-auto md:mt-10 mt-8'>
         <motion.h4
           onViewportEnter={() => setIsVisible(true)} // Set visibility when the element enters the viewport
           whileInView={{
@@ -40,7 +40,7 @@ export default function About() {
           {isVisible && (
             <TextGenerateEffect
               words="Hello again! I am happy to see you here. My name is Ziad Alaa, 20 years old. I study at the Suez Canal University of Computers and Information, passionate about creating engaging user experiences and translating designs into functional websites and applications with creativity and expertise. Committed to staying updated with industry trends."
-              className="text-center md:tracking-wider mb-4 text-sm font-light md:text-lg lg:text-2xl xl:text-4xl"
+              className="text-center leading-6 md:leading-2 md:tracking-wider mb-4 text-sm font-light md:text-lg lg:text-2xl xl:text-4xl"
             />
           )}
         </motion.h4>

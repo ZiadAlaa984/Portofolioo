@@ -77,7 +77,7 @@ export const projects = [
     id: 4,
     title: "Login System",
     des: "This system consists of: Sign-up form for users to register with a unique email address, name, and password, ...",
-    img: "/assets/login/img1.png",
+    img: "/assets/Login/img1.png",
     iconLists: ["/assets/imgs/js.svg", "/assets/imgs/bootstrab.svg","/assets/github1.svg" ,"/assets/imgs/css.svg","/assets/imgs/html.svg"],
     href: "https://ziadalaa984.github.io/login/",
   },

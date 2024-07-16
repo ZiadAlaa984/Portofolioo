@@ -59,7 +59,7 @@ export default function Skills() {
 
     return (
 
-        <section id='Skills' className="mx-auto  md:mt-0  max-w-screen-xl p-5 md:p-10 lg:py-28">
+        <section id='Skills' className="mx-auto  md:mt-0  max-w-screen-xl  py-40 ">
             <motion.h2
     whileInView={{
 

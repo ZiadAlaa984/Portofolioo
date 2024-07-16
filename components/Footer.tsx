@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <section
 
-            className=" bg-black w-full  border-t border-stone-900 footer  md:mt-0 p-5 md:p-10 lg:p-12">
+            className=" bg-black w-full  border-t border-stone-900 footer  md:mt-0 p-5 md:p-8 ">
             <div className='flex mx-auto flex-col   justify-start   gap-4  items-center w-full'>
                 <ul className='flex flex-row justify-between items-center space-x-4 md:space-x-6'>
                     <motion.li
@@ -70,8 +70,8 @@ export default function Footer() {
                     </motion.li>
                 </ul>
                 <div className='text-center'>
-                    <p className='text-md font-bold  name text-white'>Copyright© 2024 ziadalaa.</p>
-                    <p className='text-md font-bold  name text-white'>All rights reserved.</p>
+                    <p className='text-sm font-bold  name text-white'>Copyright© 2024 ziadalaa.</p>
+                    <p className='text-sm font-bold  name text-white'>All rights reserved.</p>
                 </div>
             </div>
         </section >

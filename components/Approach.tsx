@@ -15,7 +15,7 @@ export function Approach() {
 
   return (
     <>
-      <section id="Approach" className="w-full p-5 md:p-10 lg:py-28">
+      <section id="Approach" className="w-full py-40">
         <motion.h2
           whileInView={{
             opacity: 1,
@@ -133,7 +133,6 @@ const AceternityIcon = ({ order }: { order: string }) => {
     </div>
   );
 };
-
 const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
