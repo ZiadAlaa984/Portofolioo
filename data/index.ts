@@ -15,7 +15,7 @@ export const projects = [
     des: "that include simplified user management (registration, login, and password reset), product browsing",
     img: "/assets/freshcard/scr1.png",
     iconLists: ["/re.svg", "/tail.svg", "/assets/imgs/js.svg","/assets/vercel.svg" ,"/assets/imgs/css.svg","/assets/imgs/html.svg"],
-    href: "https://fresh-card-chi.vercel.app/",
+    href: "https://fresh-cart-app-lemon.vercel.app/",
   },
   {
           titleLink:'MoviesWebsite' ,
