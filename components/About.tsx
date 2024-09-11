@@ -32,7 +32,7 @@ export default function About() {
           onViewportEnter={() => setIsVisible(true)} // Set visibility when the element enters the viewport
           whileInView={{
             opacity: 1,
-            transition: { duration: 1.3, delay: 1, ease: "easeInOut" },
+            transition: { duration: 1, delay: 1, ease: "easeInOut" },
           }}
           initial={{ opacity: 0 }}
           viewport={{ once: true }}
